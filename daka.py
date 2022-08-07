@@ -184,7 +184,7 @@ if __name__ == "__main__":
     url = "https://healthreport.zju.edu.cn/ncov/wap/default/index"
     account = os.getenv("account")
     password = os.getenv("password")
-    latitude = 30.27  # 虚拟位置纬度
-    longitude = 120.13  # 经度
+    latitude = 30.96  # 虚拟位置纬度
+    longitude = 118.73  # 经度
     daka = AutoDaka(url, account, password, latitude, longitude)
     daka.run()
